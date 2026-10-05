@@ -101,7 +101,7 @@ module tb_sc_fifo;
         $finish;
     end
     
-    // Test 2 - write and read all A's
+    // Test 2 - write and read all F's
     data_in = 16'hFFFF;
     write_fifo = 1;
 
