@@ -242,7 +242,7 @@ module tb_sc_fifo;
         $finish;
     end
     
-    // Test 5 - Writing alternating data values
+    // Test 6 - Writing alternating data values
     write_fifo = 1;
     
     for (i = 0; i < 8; i = i + 1) begin
@@ -291,7 +291,7 @@ module tb_sc_fifo;
     end
     read_fifo = 0;
 
-    // Test 6 - testing python script
+    // Test 7 - testing python script
     
    // reading python data
     $readmemh("input_data.txt", python_data);
