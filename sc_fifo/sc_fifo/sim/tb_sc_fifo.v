@@ -20,7 +20,7 @@ module tb_sc_fifo;
     parameter WIDTH = 16;
     parameter DEPTH = 32;
     parameter COUNT_WIDTH = $clog2(DEPTH + 1);
-    paramter READ_LATENCY = 1;
+    parameter READ_LATENCY = 1;
 
     reg clk;
     reg SRST;
